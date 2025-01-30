@@ -29,7 +29,7 @@ export default function Team() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">チームメンバー</h2>
+          <h2 className="text-4xl font-bold mb-4">Team</h2>
           <p className="text-lg text-muted-foreground">
             プロフェッショナルな映像制作チーム
           </p>

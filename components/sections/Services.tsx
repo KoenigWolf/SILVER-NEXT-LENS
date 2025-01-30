@@ -1,39 +1,39 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Camera, Video, Compass, Image, Bone as Drone, Film } from 'lucide-react';
+import { Camera, Video, Briefcase, AirVent, Tv2, Lightbulb } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 const services = [
   {
-    icon: Drone,
-    title: 'ドローン空撮',
-    description: '高度な技術と最新機材による空撮サービス',
+    icon: Video,
+    title: 'プロモーション映像制作',
+    description: '事業や観光の魅力を映像で伝えるプロモーションムービーを制作。',
   },
   {
-    icon: Video,
-    title: '映像制作',
-    description: 'プロフェッショナルな映像コンテンツの制作',
+    icon: Briefcase,
+    title: '企業・ブランドムービー',
+    description: '企業の理念やブランドの世界観を映像で表現し、魅力を発信。',
   },
   {
     icon: Camera,
-    title: '商品写真撮影',
-    description: '商品の魅力を最大限に引き出す撮影',
+    title: '個人向け映像制作',
+    description: '人生の特別な瞬間を映像に残し、感動を形にする映像制作。',
   },
   {
-    icon: Compass,
-    title: 'VR撮影',
-    description: '没入感のある360度VRコンテンツ制作',
+    icon: AirVent, // Drone の代替アイコン
+    title: 'ドローン空撮',
+    description: '圧倒的な視点で撮影する高品質なドローン空撮サービス。',
   },
   {
-    icon: Image,
-    title: 'パノラマ写真',
-    description: '360度パノラマ写真による空間表現',
+    icon: Tv2,
+    title: 'テレビ・メディア向け映像提供',
+    description: '番組やニュース向けの映像素材を提供し、メディア制作をサポート。',
   },
   {
-    icon: Film,
-    title: '素材提供',
-    description: '高品質な映像・写真素材のライセンス提供',
+    icon: Lightbulb,
+    title: '映像コンサルティング & 企画',
+    description: '映像戦略の企画・構成から撮影・編集まで幅広くサポート。',
   },
 ];
 
@@ -48,9 +48,9 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">サービス</h2>
+          <h2 className="text-4xl font-bold mb-4">Service</h2>
           <p className="text-lg text-muted-foreground">
-            最新技術と創造力で、お客様のビジョンを実現します
+            映像制作を通じて、あなたのビジョンを具現化します。
           </p>
         </motion.div>
 

@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja">
+    <html lang="ja" className="m-0 p-0">
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

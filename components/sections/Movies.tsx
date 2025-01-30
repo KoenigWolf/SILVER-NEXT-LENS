@@ -4,18 +4,18 @@ import { motion } from 'framer-motion';
 import { ParallaxScrollSecond } from '@/components/ui/parallax-scroll';
 
 const images = [
-  '/images/movies/image_017.webp',
-  '/images/movies/image_022.webp',
-  '/images/movies/image_023.webp',
-  '/images/movies/image_024.webp',
-  '/images/movies/image_025.webp',
-  '/images/movies/image_026.webp',
-  '/images/movies/image_027.webp',
-  '/images/movies/image_028.webp',
-  '/images/movies/image_029.webp',
-  '/images/movies/image_030.webp',
-  '/images/movies/image_031.webp',
-  '/images/movies/image_032.webp'
+  '/images/movies/movie1.webp',
+  '/images/movies/movie2.webp',
+  '/images/movies/movie3.webp',
+  '/images/movies/movie4.webp',
+  '/images/movies/movie5.webp',
+  '/images/movies/movie6.webp',
+  '/images/movies/movie7.webp',
+  '/images/movies/movie8.webp',
+  '/images/movies/movie9.webp',
+  '/images/movies/movie10.webp',
+  '/images/movies/movie11.webp',
+  '/images/movies/movie12.webp'
 ];
 
 export default function Movies() {

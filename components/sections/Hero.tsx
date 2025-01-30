@@ -5,12 +5,12 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen w-screen flex items-center justify-center overflow-hidden top-0">
       {/* Video Background */}
       <iframe
         title="Background video"
         src="https://player.vimeo.com/video/667542636?autoplay=1&loop=1&muted=1&background=1"
-        className="absolute inset-0 w-full h-full object-cover -z-10 border-none" // ✅ Tailwind の border-none を追加
+        className="absolute inset-0 w-screen h-screen object-cover -z-10 border-none"
         allow="autoplay; fullscreen"
       ></iframe>
 
