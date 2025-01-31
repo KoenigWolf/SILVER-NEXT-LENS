@@ -14,7 +14,7 @@ export default function Video() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-center mb-16">ありのまま、あわじしま。</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">ありのまま、<br />あわじしま。</h2>
           
           <div className="space-y-12">
             <HeroVideoDialog

@@ -22,7 +22,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">お問い合わせ</h2>
+          <h2 className="text-4xl font-bold mb-4">Contact</h2>
           <p className="text-lg text-muted-foreground">
             お気軽にご相談ください
           </p>

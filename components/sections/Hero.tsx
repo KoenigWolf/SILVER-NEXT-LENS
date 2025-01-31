@@ -2,15 +2,16 @@
 
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-screen flex items-center justify-center overflow-hidden top-0">
+    <section className="relative h-screen w-screen overflow-hidden">
       {/* Video Background */}
       <iframe
         title="Background video"
         src="https://player.vimeo.com/video/667542636?autoplay=1&loop=1&muted=1&background=1"
-        className="absolute inset-0 w-screen h-screen object-cover -z-10 border-none"
+        className={`absolute inset-0 w-screen h-screen -z-10 border-none ${styles.videoBackground}`}
         allow="autoplay; fullscreen"
       ></iframe>
 

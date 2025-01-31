@@ -21,13 +21,13 @@ export default function About() {
               <h3 className="text-2xl font-semibold mb-4">SilverNextLens</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  <strong>運営会社：</strong>株式会社 フィールドコム 映像制作事業部
+                  <strong>運営会社：</strong>株式会社フィールドコム映像制作事業部
                 </p>
                 <p>
-                  <strong>所在地：</strong>〒656-0122　南あわじ市広田広田365-2 山岡オフィスビル3F
+                  <strong>所在地：</strong>〒656-0122 南あわじ市広田広田365-2 山岡オフィスビル３F
                 </p>
                 <p>
-                  <strong>電話番号：</strong>0799-45-2377
+                  <strong>TELL：</strong>0799-45-2377
                 </p>
                 <p>
                   <strong>FAX：</strong>0799-45-2378
@@ -52,8 +52,8 @@ export default function About() {
                 <div>
                   <h4 className="font-semibold mb-2">代表者</h4>
                   <p className="text-muted-foreground">
-                    代表取締役：眞野方仁<br />
-                    映像制作事業部：温泉銀次
+                    代表取締役　眞野方仁<br />
+                    映像制作事業部　温泉銀次
                   </p>
                 </div>
               </div>
