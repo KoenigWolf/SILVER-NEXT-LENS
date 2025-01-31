@@ -14,6 +14,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+      },
+      fontSize: {
+        'display-1': ['4.5rem', { lineHeight: '1.1', fontWeight: '700' }],
+        'display-2': ['4rem', { lineHeight: '1.1', fontWeight: '700' }],
+        'display-3': ['3.5rem', { lineHeight: '1.1', fontWeight: '700' }],
+        'heading-1': ['3rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'heading-2': ['2.5rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'heading-3': ['2rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'heading-4': ['1.5rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'body-large': ['1.25rem', { lineHeight: '1.5', fontWeight: '400' }],
+        'body': ['1rem', { lineHeight: '1.5', fontWeight: '400' }],
+        'body-small': ['0.875rem', { lineHeight: '1.5', fontWeight: '400' }],
+      },
+      fontWeight: {
+        light: '300',
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+        bold: '700',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

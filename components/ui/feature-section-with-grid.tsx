@@ -70,7 +70,7 @@ const newsData = [
 
 export default function NewsSection() {
   return (
-    <section className="w-full py-20 lg:py-40 bg-gray-100">
+    <section className="section-base section-gradient-1 w-full py-20 lg:py-40">
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-10">
           {/* Header */}
@@ -88,7 +88,7 @@ export default function NewsSection() {
             {newsData.map((news, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-3 bg-white p-4 rounded-lg shadow-md relative cursor-pointer"
+                className="flex flex-col gap-3 bg-white/50 dark:bg-black/50 p-4 rounded-lg shadow-md relative cursor-pointer hover:shadow-lg transition-shadow"
                 onClick={() => {
                   if (news.link) {
                     window.open(news.link, "_blank", "noopener,noreferrer");

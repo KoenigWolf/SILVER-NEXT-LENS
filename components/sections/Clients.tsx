@@ -27,7 +27,7 @@ const clients = [
 
 export default function Clients() {
   return (
-    <section className="py-24 bg-muted/50">
+    <section className="section-base section-gradient-1 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export default function Clients() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="flex items-center justify-center p-6 bg-card rounded-lg shadow-sm hover:shadow-lg transition-shadow transform hover:scale-105"
+              className="flex items-center justify-center p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow transform hover:scale-105 bg-white/50 dark:bg-black/50"
             >
               <Image 
                 src={client.logo} 

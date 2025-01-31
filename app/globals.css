@@ -18,9 +18,11 @@
 
 @layer base {
   :root {
-    --background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    --section-gradient-1: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    --section-gradient-2: linear-gradient(135deg, #f8f9fa 0%, #f3f4f6 100%);
+    --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
-    --card: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: linear-gradient(to bottom right, #ffffff, #f8f9fa);
     --popover-foreground: 0 0% 3.9%;
@@ -79,4 +81,21 @@
   body {
     @apply bg-background text-foreground m-0 p-0;
   }
+}
+
+@layer components {
+  .section-gradient-1 {
+    background: var(--section-gradient-1);
+  }
+  .section-gradient-2 {
+    background: var(--section-gradient-2);
+  }
+  .section-base {
+    @apply relative w-full overflow-hidden;
+  }
+}
+
+.dark {
+  --section-gradient-1: linear-gradient(135deg, #1a1b1e 0%, #141517 100%);
+  --section-gradient-2: linear-gradient(135deg, #141517 0%, #0f1012 100%);
 }

@@ -13,7 +13,7 @@ import {
 
 export default function Contact() {
   return (
-    <section className="py-24 bg-background">
+    <section className="section-base section-gradient-1 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export default function Contact() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <Card className="h-full">
+            <Card className="h-full bg-white/50 dark:bg-black/50 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Phone className="w-12 h-12 text-primary mb-4" />
                 <CardTitle>お電話</CardTitle>
@@ -53,7 +53,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <Card className="h-full">
+            <Card className="h-full bg-white/50 dark:bg-black/50 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Mail className="w-12 h-12 text-primary mb-4" />
                 <CardTitle>メール</CardTitle>
@@ -73,7 +73,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Card className="h-full">
+            <Card className="h-full bg-white/50 dark:bg-black/50 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <MapPin className="w-12 h-12 text-primary mb-4" />
                 <CardTitle>所在地</CardTitle>

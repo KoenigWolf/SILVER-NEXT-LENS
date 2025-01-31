@@ -13,7 +13,7 @@ import { Facebook, Instagram, Send, Twitter } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="relative border-t bg-white text-gray-700 transition-colors duration-300">
+    <footer className="section-base section-gradient-1 relative border-t border-gray-200/50 text-gray-700 transition-colors duration-300">
       <div className="container mx-auto px-6 py-12">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* お問い合わせ */}
@@ -26,7 +26,7 @@ function Footer() {
               <Input
                 type="email"
                 placeholder="メールアドレスを入力"
-                className="pr-12 backdrop-blur-sm border-gray-300"
+                className="pr-12 backdrop-blur-sm border-gray-300/50 bg-white/50 dark:bg-black/50"
               />
               <Button
                 type="submit"

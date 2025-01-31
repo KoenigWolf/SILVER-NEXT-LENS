@@ -123,7 +123,7 @@ const historyData = [
 
 export default function History() {
   return (
-    <section className="bg-background">
+    <section className="section-base">
       <Timeline data={historyData} />
     </section>
   );

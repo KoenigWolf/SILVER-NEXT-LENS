@@ -5,7 +5,7 @@ import { Calendar, Users, Award } from 'lucide-react';
 
 export default function About() {
   return (
-    <section className="py-24 bg-background">
+    <section className="section-base section-gradient-1 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -14,12 +14,12 @@ export default function About() {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-center mb-16">会社概要</h2>
+          <h2 className="text-heading-2 text-center mb-16">会社概要</h2>
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-4">SilverNextLens</h3>
-              <div className="space-y-4 text-muted-foreground">
+              <h3 className="text-heading-3 mb-4">SilverNextLens</h3>
+              <div className="space-y-4 text-muted-foreground text-body">
                 <p>
                   <strong>運営会社：</strong>株式会社フィールドコム映像制作事業部
                 </p>
@@ -39,8 +39,8 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <Calendar className="w-6 h-6 text-primary mt-1" />
                 <div>
-                  <h4 className="font-semibold mb-2">設立</h4>
-                  <p className="text-muted-foreground">
+                  <h4 className="text-heading-4 mb-2">設立</h4>
+                  <p className="text-muted-foreground text-body">
                     1995年9月 (株)フィールドコム<br />
                     2017年11月 SilverNextLens 映像制作事業部
                   </p>
@@ -50,8 +50,8 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <Users className="w-6 h-6 text-primary mt-1" />
                 <div>
-                  <h4 className="font-semibold mb-2">代表者</h4>
-                  <p className="text-muted-foreground">
+                  <h4 className="text-heading-4 mb-2">代表者</h4>
+                  <p className="text-muted-foreground text-body">
                     代表取締役　眞野方仁<br />
                     映像制作事業部　温泉銀次
                   </p>
@@ -61,8 +61,8 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <Award className="w-6 h-6 text-primary mt-1" />
                 <div>
-                  <h4 className="font-semibold mb-2">加盟団体</h4>
-                  <ul className="text-muted-foreground list-disc list-inside">
+                  <h4 className="text-heading-4 mb-2">加盟団体</h4>
+                  <ul className="text-muted-foreground text-body list-disc list-inside">
                     <li>一般社団法人 UAS多用推進技術会（UMTA）</li>
                     <li>一般社団法人日本UAS産業振興協議会（JUIDA）</li>
                     <li>一般社団法人 音楽特定利用促進機構（ISUM）</li>

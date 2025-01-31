@@ -3,7 +3,10 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "next-themes"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: '--font-inter',
+})
 
 export const metadata: Metadata = {
   title: "SILVER NEXT LENS",
@@ -16,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja" className="m-0 p-0">
-      <body className={inter.className}>
+    <html lang="ja" className={`${inter.variable} m-0 p-0`}>
+      <body className="font-sans">
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

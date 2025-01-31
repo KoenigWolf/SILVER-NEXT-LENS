@@ -20,7 +20,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section className="py-24 bg-muted/50">
+    <section className="section-base section-gradient-1 py-24">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
